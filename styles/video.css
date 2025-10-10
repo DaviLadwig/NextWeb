@@ -1,0 +1,20 @@
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.video h1{
+    font-size: 4rem;
+}
+
+.video video{
+    width: 70%;
+    box-shadow: 3px 6px 9px black;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    
+}
