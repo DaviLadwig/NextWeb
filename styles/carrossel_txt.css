@@ -1,0 +1,49 @@
+.slider {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 60px 0;
+    background-color: #121212;
+    
+}
+
+.txt-slide{
+    
+}
+
+.txt-slide span {
+    height: 100px;
+    margin: 0 40px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.txt-slide {
+    animation: 35s slide infinite linear;
+    
+}
+
+
+.txt-slide span {
+    height: 50px;
+}
+
+.txt-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
