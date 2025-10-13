@@ -14,21 +14,17 @@
     
 }
 
-.txt-slide{
-    
-}
-
 .txt-slide span {
     height: 100px;
     margin: 0 40px;
 }
 
 @keyframes slide {
-    from {
+    to {
         transform: translateX(0);
     }
 
-    to {
+    from {
         transform: translateX(-100%);
     }
 }
