@@ -115,7 +115,6 @@ form {
 
     .div-form {
         display: flex;
-        padding-left: 160px;
         width: 100%;
     }
 }
@@ -126,8 +125,15 @@ form {
     }
 
     .div-form-son form{
-        margin-left: 75px;
+       margin-left: 20px;
+    }
+
+    .div-form input{
+        width: 100%;
     }
     
+    .contact-txt{
+        margin-left: 20px;
+    }
   
 }
