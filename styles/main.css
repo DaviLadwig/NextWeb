@@ -3,7 +3,6 @@
     flex-direction: column;
     background-color: #121212;
     width: 100%;
-    padding: 20px;
 }
 
 .dad-top {
@@ -27,16 +26,7 @@
 .cont-txt p {
     font-size: 1.4rem;
     color: #919191;
-    width: 40vw;
-}
-
-.transf-txt {
-    display: flex;
-    padding-top: 20px;
-    justify-content: center;
-    background-color: #121212;
-    padding-bottom: 30px;
-    color: #919191;
+    width: 40vw[];
 }
 
 /*cards*/
@@ -130,11 +120,22 @@
 }
 
 @media(max-width:468px){
-    .dad-div-top{
+
+    .dad-div{
         width: 100%;
-        padding-right: 60px;
     }
 
+    .dad-top{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 50px;
+    }
+    .cont-txt{
+        width: 120%;
+    }
+    
     .card-dad{
         width: 100%;
 
