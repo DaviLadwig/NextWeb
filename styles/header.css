@@ -21,8 +21,7 @@
       color: white;
       font-size: 1rem;
       transition: color 0.3s;
-      margin-right: 90px;
-    }
+      }
 
     nav a:hover {
       color: #9ed500;

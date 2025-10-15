@@ -103,7 +103,6 @@ form {
 
     .contact-txt {
         display: flex;
-        padding-left: 70px;
     }
 
     .contact-txt p {
@@ -115,6 +114,8 @@ form {
     }
 
     .div-form {
+        display: flex;
+        padding-left: 160px;
         width: 100%;
     }
 }
