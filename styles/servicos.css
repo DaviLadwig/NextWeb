@@ -1,4 +1,4 @@
-#service{
+#service {
     margin-top: 100px;
 }
 
@@ -13,7 +13,9 @@
 }
 
 .card {
-    background: #1e1e1e;
+    background-color: #4B4E53;
+    background-image: linear-gradient(147deg, #4B4E53 0%, #000000 74%);
+
     border-radius: 15px;
     padding: 25px;
     flex: 1 1 300px;

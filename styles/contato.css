@@ -1,4 +1,4 @@
-#contact{
+#contact {
     height: 110vh;
     width: 100%;
     display: flex;
@@ -10,7 +10,7 @@
     background-color: #121212;
 }
 
-#contact button{
+#contact button {
     width: 250px;
     height: 40px;
     font-size: 1.2rem;
@@ -22,49 +22,65 @@
     transition: 0.6s;
 }
 
-#contact button:hover{
+#contact button:hover {
     transform: scale(1.1);
     color: white;
     background: #9ed500;
-    
+
 }
 
-.contact-form{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-txt{
+.contact-form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.contact-txt h1{
+.contact-div {
+    width: 100%;
+}
+
+.contact-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-txt h1 {
     color: #919191;
 }
 
-.contact-txt p{
+.contact-txt p {
     color: #919191;
 }
 
-.div-form{
+.div-form-son {
+    width: 80%;
+}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-top: 30px;
 }
 
-.div-form form{
+.div-form form {
     display: flex;
     flex-direction: column;
     color: #919191;
-    margin-left: 100px;
 }
 
-.div-form label{
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.div-form label {
     color: #9ed500;
 }
 
-.div-form input{
+.div-form input {
     padding: 5px;
     width: 70%;
     height: 30px;
@@ -74,8 +90,43 @@
     background: transparent;
     color: #9ed500;
 
-    
+
 }
 
 
+@media(max-width: 860px) {
 
+    #contact {
+        width: 100%;
+
+    }
+
+    .contact-txt {
+        display: flex;
+        padding-left: 70px;
+    }
+
+    .contact-txt p {
+        margin-right: 100px;
+    }
+
+    .div-form-son {
+        width: 100%;
+    }
+
+    .div-form {
+        width: 100%;
+    }
+}
+
+@media(max-width:468px) {
+    #contact {
+        padding-right: 30px;
+    }
+
+    .div-form-son form{
+        margin-left: 75px;
+    }
+    
+  
+}

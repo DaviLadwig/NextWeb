@@ -1,9 +1,9 @@
 .cta{
     width: 100%;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
     background-color: #121212;
 }
 
@@ -25,4 +25,16 @@
     color: #919191 ;
     font-size: 1.2rem;
 
+}
+
+@media(max-width: 468px){
+
+    .cta-txt{
+        width: 90%;
+    
+    }
+
+    .cta-txt h1{
+        font-size: 2.4rem;
+    }
 }

@@ -18,21 +18,83 @@
 }
 
 .about-txt{
-    width: 70%;
+    width: 80%;
     display: flex;
     gap: 30px;
-    justify-content: space-between;
 }
 
 .about-txt p{
     padding-top: 10px;
-    width: 55%;
-    margin-right: 100px;
     font-size: 1.2rem;
+    width: 70%;
 }
 
 .about-txt img{
     width: 500px;
     border-radius: 0 25px;
     box-shadow: 2px 4px 6px black;
+}
+.about-paragraf{
+    width: 100%;
+}
+
+@media(max-width: 1024px){
+    .about-txt{
+        width: 90%;
+    }
+
+    .about-txt p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 860px){
+    .about-txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about-txt p{
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    .about-txt img{
+        width: 600px;
+    }
+}
+
+@media (max-width:680px){
+    .about-paragraf{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-txt p{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 468px){
+    #about h1{
+        font-size: 2.4rem;
+    }
+
+    #about span{
+        margin-left: 100px;
+        font-size: 1rem;
+    }
+
+    .about-txt img{
+        width: 430px;
+    }
+
+    .about-txt p{
+        font-size: 1rem;
+    }
+
+
+
 }

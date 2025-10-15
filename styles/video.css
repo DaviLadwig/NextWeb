@@ -1,31 +1,53 @@
-#video-pl{
+#video-pl {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+
 }
 
-.video{
+.video {
     padding: 20px;
-    width: 98%;
+    width: 90%;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: #121212;
-    border-radius:0 25px;
+    background-color: #4B4E53;
+    background-image: linear-gradient(147deg, #4B4E53 0%, #000000 74%);
+    border-radius: 0 25px;
 }
 
-.video h1{
+.video h1 {
     font-size: 4rem;
     color: #919191;
 }
 
-.video video{
+.video video {
     width: 70%;
     box-shadow: 3px 6px 9px black;
     border-radius: 10px;
     backdrop-filter: blur(3px);
-    
+
+}
+
+@media(max-width: 860px) {
+    .video video {
+        width: 100%;
+    }
+}
+
+@media(max-width: 468px){
+    .video h1{
+        font-size: 2.4rem;
+    }
+
+    .video{
+        width: 98%;
+    }
+
+    .video video{
+        width: 100%;
+    }
 }

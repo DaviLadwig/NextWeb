@@ -12,67 +12,68 @@
 <body>
 
     <!--incio header-->
-
-
-    <header class="navbar">
-        <div class="nav-div">
-            <div class="logo">
-                <img src="images/1-removebg-preview.png" alt="logo-wvolut" width="300px">
-            </div>
-            <nav class="nav-links" id="navLinks">
-                <a href="#">Serviços</a>
-                <a href="#">Orçamento</a>
-                <a href="#">Projetos</a>
-                <a href="#">Suporte</a>
-                <a href="#">Sobre</a>
-                <a href="#">Trabalhe Conosco</a>
-            </nav>
+    <header>
+        <div class="logo"><img src="images/1-removebg-preview.png" alt="logo" width="300px"></div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Serviços</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contato</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-
-        <div class="dad-div">
-            <div class="dad-top">
-                <d class="top-text">
-                    <div class="cont-txt">
-                        <h4>Apps e softwares feitos
-                            sob medida para crescer com você.
-                        </h4>
-
-                        <p>
-                            Nós desenvolvemos soluções que fazem sentido pra você e pro seu dia a dia.
-                            Vamos juntos modernizar o seu mundo?
-                        </p>
-                    </div>
-
-            </div>
-
-            <div class="cont-cards">
-                <div class="cards">
-                    <img src="images/foguete.png">
-                    <h4>Inovação</h4>
-                    <span>Sempre invando e acompanhando o mercado</span>
-                </div>
-
-                <div class="cards">
-                    <img src="images/caixa-de-entrega.png">
-                    <h4>Entrega rapida</h4>
-                    <span>Trabalhamos com eficiencia para entregar o sistema com qualidade </span>
-                </div>
-
-                <div class="cards">
-                    <img src="images/resultados.png">
-                    <h4>Resultados</h4>
-                    <span>Conversões reais e lucro em cima de operação</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="transf-txt">
-            <span>Transformamos ideias em soluções tecnológicas inteligentes.</span>
-        </div>
-        </div>
-
-
     </header>
+
+    <div class="overlay" id="overlay"></div>
+
+
+
+
+    <!--main-->
+    <div class="dad-div">
+        <div class="dad-div-top">
+            <div class="dad-top">
+                <div class="cont-txt">
+                    <h4>Apps e softwares feitos
+                        sob medida para crescer com você.
+                    </h4>
+
+                    <p>
+                        Nós desenvolvemos soluções que fazem sentido pra você e pro seu dia a dia.
+                        Vamos juntos modernizar o seu mundo?
+                    </p>
+                </div>
+
+                <div class="card-dad">
+                    <div class="cont-cards">
+                        <div class="cards">
+                            <img src="images/foguete.png">
+                            <h4>Inovação</h4>
+                            <span>Sempre invando e acompanhando o mercado</span>
+                        </div>
+
+                        <div class="cards">
+                            <img src="images/caixa-de-entrega.png">
+                            <h4>Entrega rapida</h4>
+                            <span>Trabalhamos com eficiencia para entregar o sistema com qualidade </span>
+                        </div>
+
+                        <div class="cards">
+                            <img src="images/resultados.png">
+                            <h4>Resultados</h4>
+                            <span>Conversões reais e lucro em cima de operação</span>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+            <span>Transformamos ideias em soluções tecnológicas inteligentes.</span>
+    </div>
+
+
 
 
     <!--DIV HARDSKILLS-->
@@ -120,16 +121,19 @@
         </h1>
         <div class="about-txt">
             <img src="images/12ac8831ae89c2a6eb724cedf530c406.jpg" alt="ecritorio evolut">
-            <p>
-                A Evolut Web é uma software house especializada em impulsionar resultados e fortalecer a
-                credibilidade
-                de empresas por meio da tecnologia.
-                Desenvolvemos softwares sob medida, interfaces modernas (UI e UX Design) e landing pages
-                estratégicas que conectam inovação, desempenho e propósito.
-                Nosso foco é evoluir negócios através de soluções digitais inteligentes, criadas para gerar
-                impacto real
-                e crescimento sustentável.
-            </p>
+            <div class="about-paragraf">
+                <p>
+                    A Evolut Web é uma software house especializada em impulsionar resultados e fortalecer a
+                    credibilidade
+                    de empresas por meio da tecnologia.
+                    Desenvolvemos softwares sob medida, interfaces modernas (UI e UX Design) e landing pages
+                    estratégicas que conectam inovação, desempenho e propósito.
+                    Nosso foco é evoluir negócios através de soluções digitais inteligentes, criadas para gerar
+                    impacto real
+                    e crescimento sustentável.
+                </p>
+            </div>
+
         </div>
         <span> Evolut Web - Tecnologia que conecta, automatiza e transforma. </span>
     </section>
@@ -220,86 +224,88 @@
 
             <!--DUVIDAS FRQUENTES-->
             <div id="faq">
-                <div class="faq-container">
-                    <h2>Perguntas Frequentes</h2>
+                <div class="faq-dad">
+                    <div class="faq-container">
+                        <h2> Dúvidas Frequentes</h2>
 
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            O que é a Evolut Web?
-                            <span>+</span>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                O que é a Evolut Web?
+                                <span>+</span>
+                            </div>
+                            <div class="faq-answer">
+                                A Evolut Web é uma empresa especializada em desenvolvimento de sites, sistemas e
+                                automações.
+                            </div>
                         </div>
-                        <div class="faq-answer">
-                            A Evolut Web é uma empresa especializada em desenvolvimento de sites, sistemas e
-                            automações.
-                        </div>
-                    </div>
 
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Quais serviços vocês oferecem?
-                            <span>+</span>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                Quais serviços vocês oferecem?
+                                <span>+</span>
+                            </div>
+                            <div class="faq-answer">
+                                Oferecemos desenvolvimento web, sistemas personalizados, automação com inteligência
+                                artificial e
+                                IoT.
+                            </div>
                         </div>
-                        <div class="faq-answer">
-                            Oferecemos desenvolvimento web, sistemas personalizados, automação com inteligência
-                            artificial e
-                            IoT.
-                        </div>
-                    </div>
 
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Como posso solicitar um orçamento?
-                            <span>+</span>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                Como posso solicitar um orçamento?
+                                <span>+</span>
+                            </div>
+                            <div class="faq-answer">
+                                Você pode entrar em contato pelo nosso formulário no site ou via WhatsApp para
+                                solicitar um
+                                orçamento gratuito.
+                            </div>
                         </div>
-                        <div class="faq-answer">
-                            Você pode entrar em contato pelo nosso formulário no site ou via WhatsApp para
-                            solicitar um
-                            orçamento gratuito.
-                        </div>
-                    </div>
 
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Vocês trabalham com manutenção de sites?
-                            <span>+</span>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                Vocês trabalham com manutenção de sites?
+                                <span>+</span>
+                            </div>
+                            <div class="faq-answer">
+                                Sim, oferecemos pacotes de manutenção e suporte para garantir que seu site esteja
+                                sempre
+                                atualizado e seguro.
+                            </div>
                         </div>
-                        <div class="faq-answer">
-                            Sim, oferecemos pacotes de manutenção e suporte para garantir que seu site esteja
-                            sempre
-                            atualizado e seguro.
-                        </div>
-                    </div>
 
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Em quanto tempo um site fica pronto?
-                            <span>+</span>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                Em quanto tempo um site fica pronto?
+                                <span>+</span>
+                            </div>
+                            <div class="faq-answer">
+                                O prazo varia conforme o projeto, mas geralmente entre 1 a 2 semanas, dependendo da
+                                complexidade do projeto e demanda.
+                            </div>
                         </div>
-                        <div class="faq-answer">
-                            O prazo varia conforme o projeto, mas geralmente entre 1 a 2 semanas, dependendo da
-                            complexidade do projeto e demanda.
-                        </div>
-                    </div>
 
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Posso pedir um sistema sob medida?
-                            <span>+</span>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                Posso pedir um sistema sob medida?
+                                <span>+</span>
+                            </div>
+                            <div class="faq-answer">
+                                Claro! Desenvolvemos sistemas totalmente personalizados de acordo com a necessidade
+                                do
+                                cliente.
+                            </div>
                         </div>
-                        <div class="faq-answer">
-                            Claro! Desenvolvemos sistemas totalmente personalizados de acordo com a necessidade
-                            do
-                            cliente.
-                        </div>
-                    </div>
 
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            Vocês atendem todo o Brasil?
-                            <span>+</span>
-                        </div>
-                        <div class="faq-answer">
-                            Sim, atendemos clientes de todo o Brasil de forma 100% online.
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                Vocês atendem todo o Brasil?
+                                <span>+</span>
+                            </div>
+                            <div class="faq-answer">
+                                Sim, atendemos clientes de todo o Brasil de forma 100% online.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -344,24 +350,27 @@
             <!--Entre em contato-->
             <div id="contact">
                 <div class="contact-form">
-                    <div class="contact-txt">
-                        <h1>Preencah o formulario com seus <span style="color: #9ed500;">dados abaixo</span>
-                        </h1>
-                        <p>Nossa equipe vai entrar em contato com você dentro de <span>24 horas</span></p>
-                    </div>
+                    <div class="contact-div">
+                        <div class="contact-txt">
+                            <h1>Preencha o formulario com seus <span style="color: #9ed500;">dados abaixo</span>
+                            </h1>
+                            <p>Nossa equipe vai entrar em contato com você dentro de <span style="color: #9ed500; font-weight: 700;">12 horas</span></p>
+                        </div>
 
+                        <div class="div-form">
+                            <div class="div-form-son">
+                                <form>
+                                    <label>Nome e sobrenome*</label>
+                                    <input type="text" name="" id=""><br>
 
-                    <div class="div-form">
-                        <form>
-                            <label>Nome e sobrenome*</label>
-                            <input type="text" name="" id=""><br>
+                                    <label>Whatsapp*</label>
+                                    <input type="text" name="" id=""><br>
 
-                            <label>Whatsapp*</label>
-                            <input type="text" name="" id=""><br>
-
-                            <label>E-mail*</label>
-                            <input type="text" name="" id=""><br>
-                        </form>
+                                    <label>E-mail*</label>
+                                    <input type="text" name="" id=""><br>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -369,55 +378,54 @@
             </div>
 
             <!--RODAPE-->
-            <footer class="site-footer" aria-label="Rodapé do site Evolut Web">
-                <!-- Ondas estáticas -->
-               <div class="mov">
-                    <div class="wave wave1"></div>
-                    <div class="wave wave2"></div>
-                    <div class="wave wave3"></div>
-                    <div class="wave wave4"></div>
-               </div>
-                
-                <!--fim ondas-->
 
-                <div class="footer-inner">
-                    <div class="footer-brand">
-                        <div class="brand-title">Evolut Web</div>
-                        <p class="brand-desc">
-                            Ajudamos empresas a alavancar resultados com sites, sistemas sob medida, design UI/UX e
-                            automações inteligentes.
-                        </p>
-                    </div>
+            <!-- Ondas estáticas -->
+            <div class="mov">
+                <div class="wave wave1"></div>
+                <div class="wave wave2"></div>
+                <div class="wave wave3"></div>
+                <div class="wave wave4"></div>
+            </div>
 
-                    <nav class="footer-nav" aria-label="Links do rodapé">
-                        <div class="nav-column">
-                            <h4>Serviços</h4>
-                            <ul>
-                                <li><a href="#sites">Sites sob medida</a></li>
-                                <li><a href="#ia">Agente de IA</a></li>
-                                <li><a href="#automacao">Automação</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="nav-column">
+            <!--fim ondas-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
                             <h4>Empresa</h4>
                             <ul>
-                                <li><a href="#quem-somos">Quem somos</a></li>
-                                <li><a href="#portfolio">Portfólio</a></li>
-                                <li><a href="#contato">Contato</a></li>
+                                <li><a href="#">Sobre</a></li>
+                                <li><a href="#">Serviços</a></li>
                             </ul>
                         </div>
-
-                        <div class="nav-column">
+                        <div class="footer-col">
                             <h4>Ajuda</h4>
                             <ul>
-                                <li><a href="#faq">FAQ</a></li>
-                                <li><a href="#suporte">Suporte</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Duvidas</a></li>
+                                <li><a href="#">Suporte técnico</a></li>
+                                <li><a href="#">Opções de pagamento</a></li>
                             </ul>
                         </div>
-                    </nav>
+                        <div class="footer-col">
+                            <h4>Siga-nos</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </footer>
+
+
+
+            <footer class="footer-bottom">
+                <p>© 2025 Evolut Web — Todos os direitos reservados.</p>
+            </footer>
+
+
 
 
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

@@ -1,0 +1,148 @@
+.dad-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    width: 100%;
+    padding: 20px;
+}
+
+.dad-top {
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+}
+
+
+.cont-txt {
+    width: 60%;
+
+}
+
+.cont-txt h4 {
+    font-size: 4rem;
+    color: white;
+    width: 45vw;
+}
+
+.cont-txt p {
+    font-size: 1.4rem;
+    color: #919191;
+    width: 40vw;
+}
+
+.transf-txt {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    background-color: #121212;
+    padding-bottom: 30px;
+    color: #919191;
+}
+
+/*cards*/
+
+
+.cont-cards {
+    margin-top: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cont-cards img {
+    width: 35px;
+}
+
+.cards {
+    padding: 30px;
+    height: 30vh;
+    box-shadow: 1px 1px 1px #9ed500;
+    border-radius: 15px;
+    padding-top: 20px;
+    background-color: #4B4E53;
+    background-image: linear-gradient(147deg, #4B4E53 0%, #000000 74%);
+    color: #919191;
+    animation: mover 4s ease-in-out infinite;
+    transition: 0.5s;
+
+}
+
+.cards:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(192, 255, 4, 0.801);
+    border-color: #9ed500;
+
+}
+
+.cards h4 {
+    font-size: 1.4rem;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:680px){
+    .dad-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dad-div-top{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cont-txt{
+        width: 100%;
+    }
+
+    .cont-txt h4{
+        width: 100%;
+        font-size: 2.4rem;
+    }
+
+    .cont-txt p{
+        width: 100%;
+    }
+    
+    .cont-cards{
+        width: 80%;
+    }
+
+    .cards{
+        width: 100%;
+    }
+}
+
+@media(max-width:468px){
+    .dad-div-top{
+        width: 100%;
+        padding-right: 60px;
+    }
+
+    .card-dad{
+        width: 100%;
+
+    }
+
+    .cont-cards{
+        width: 100%;
+        
+    }
+
+}

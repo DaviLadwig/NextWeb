@@ -1,26 +1,37 @@
-.mensage{
+.mensage {
     margin-top: 100px;
     display: flex;
     justify-content: center;
 }
 
-.mensage-txt{
-    border-radius:0 25px;
+.mensage-txt {
+    border-radius: 0 25px;
     width: 80%;
     padding: 50px;
-    background-color: #121212;
+    background-color: #4B4E53;
+    background-image: linear-gradient(147deg, #4B4E53 0%, #000000 74%);
+
     box-shadow: 5px 5px 10px black;
 }
 
-.mensage-txt h2{
+.mensage-txt h2 {
     padding-bottom: 30px;
     font-size: 4rem;
     color: #919191;
-
-;
 }
 
-.mensage-txt p{
+.mensage-txt p {
     font-size: 1.5rem;
     color: #919191;
+}
+
+
+@media(max-width:468px){
+    .mensage-txt h2{
+        font-size: 2.4rem;
+    }
+
+    .mensage-txt p{
+        font-size: 1rem;
+    }
 }
