@@ -107,3 +107,14 @@
 
 
 }
+
+@media(max-width: 400px){
+    #about span{
+        width: 100%;
+
+    }
+
+    .about-txt img{
+        width: 370px;
+    }
+}

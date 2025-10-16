@@ -1,16 +1,21 @@
 .dad-div {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #121212;
     width: 100%;
+    height: 135vh;
+}
+
+.dad-div-top{
+    width: 96%;
 }
 
 .dad-top {
     display: flex;
     width: 100%;
-    padding-left: 50px;
 }
-
 
 .cont-txt {
     width: 60%;
@@ -20,20 +25,20 @@
 .cont-txt h4 {
     font-size: 4rem;
     color: white;
-    width: 45vw;
+    width: 55vw;
 }
 
 .cont-txt p {
     font-size: 1.4rem;
     color: #919191;
-    width: 40vw[];
+    width: 40vw;
+    padding-top: 10px;
 }
 
 /*cards*/
 
-
 .cont-cards {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -46,10 +51,10 @@
 
 .cards {
     padding: 30px;
-    height: 30vh;
+    height: 27vh;
     box-shadow: 1px 1px 1px #9ed500;
     border-radius: 15px;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: #4B4E53;
     background-image: linear-gradient(147deg, #4B4E53 0%, #000000 74%);
     color: #919191;
@@ -69,6 +74,24 @@
     font-size: 1.4rem;
 }
 
+.txt-main{
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-main p{
+    color: #919191;
+    font-size: 1.4rem;
+}
+
+.txt-main h3{
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    color: #919191;
+}
+
 @keyframes mover {
     0% {
         transform: translateY(0);
@@ -83,7 +106,184 @@
     }
 }
 
+
+@media(max-width: )
+
+@media(max-width: 970px){
+    .dad-div{
+        height: 180vh;
+    }
+
+    .dad-div-top{
+        padding: 10px;
+    }
+
+    .cont-txt{
+        width: 100%;
+    }
+
+    .cont-txt h4{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .txt-main h3{
+        font-size: 2.4rem;
+    }
+
+    .txt-main p{
+        width: 100%;
+    }
+
+    .dad-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-dad{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-cards{
+        width: 70%;
+    }
+}
+
+
+@media(max-width: 885px){
+    .dad-div{
+        height: 190vh;
+    }
+
+    .dad-div-top{
+        padding: 10px;
+    }
+
+    .cont-txt{
+        width: 100%;
+    }
+
+    .cont-txt h4{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .txt-main h3{
+        font-size: 2.4rem;
+    }
+
+    .txt-main p{
+        width: 100%;
+    }
+
+    .dad-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-dad{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-cards{
+        width: 90%;
+    }
+}
+
+@media(max-width: 786px){
+    .dad-div{
+        height: 210vh;
+    }
+
+    .dad-div-top{
+        padding: 10px;
+    }
+
+    .cont-txt{
+        width: 100%;
+    }
+
+    .cont-txt h4{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .txt-main h3{
+        font-size: 2.4rem;
+    }
+
+    .txt-main p{
+        width: 100%;
+    }
+
+    .dad-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-dad{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-cards{
+        width: 90%;
+    }
+}
+
+@media(max-width: 726px){
+
+    .dad-div{
+        height: 210vh;
+    }
+
+    .dad-div-top{
+        padding: 10px;
+    }
+
+    .cont-txt{
+        width: 100%;
+    }
+
+    .cont-txt h4{
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .txt-main h3{
+        font-size: 2.4rem;
+    }
+
+    .txt-main p{
+        width: 100%;
+    }
+
+    .dad-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-dad{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-cards{
+        width: 90%;
+    }
+}
+
 @media (max-width:680px){
+    .dad-div{
+        height: 200vh;
+    }
+
     .dad-top{
         width: 100%;
         display: flex;
@@ -111,7 +311,7 @@
     }
     
     .cont-cards{
-        width: 80%;
+        width: 90%;
     }
 
     .cards{
@@ -119,21 +319,30 @@
     }
 }
 
+@media(max-width: 479px){
+    .dad-div{
+        height: 220vh;
+    }
+}
+
 @media(max-width:468px){
 
     .dad-div{
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .dad-top{
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 50px;
+        padding-right: 0px;
     }
     .cont-txt{
-        width: 120%;
+        width: 100%;
     }
     
     .card-dad{
@@ -146,4 +355,54 @@
         
     }
 
+}
+ 
+
+@media(max-width: 410px){
+
+    .card-dad{
+        margin-top: 25px;
+    }
+
+    .dad-div{
+        height: 220vh;
+    }
+
+    .txt-main{
+        width: 80%;
+    }
+
+    .txt-main h3{
+        font-size: 2rem;
+    }
+
+    .txt-main p{
+        width: 100%;
+    }
+}
+
+@media(max-width: 374px){
+    .dad-div{
+        height: 235vh;
+    }
+
+    .card-dad{
+        width: 100%;
+
+    }
+
+    .cont-cards{
+        width: 100%;
+    }
+
+    .cards h4{
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width: 287px){
+    .dad-div{
+        height: 255vh;
+    }
 }

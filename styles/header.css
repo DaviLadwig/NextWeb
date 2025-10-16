@@ -1,101 +1,111 @@
  header {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5px 20px;
-      background: #121212;
-      position: relative;
-      top: 0;
-      left: 0;
-      z-index: 1000;
-    }
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px 20px;
+   background: #121212;
+   position: relative;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+ }
 
-    nav {
-      display: flex;
-      gap: 2rem;
-    }
+ nav {
+   display: flex;
+   gap: 2rem;
+   width: 40%;
+ }
 
-    nav a {
-      text-decoration: none;
-      color: white;
-      font-size: 1rem;
-      transition: color 0.3s;
-      }
+ nav a {
+   text-decoration: none;
+   color: white;
+   font-size: 1rem;
+   transition: color 0.3s;
+ }
 
-    nav a:hover {
-      color: #9ed500;
-    }
+ nav a:hover {
+   color: #9ed500;
 
-    /* Ícone do menu */
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      cursor: pointer;
-      gap: 6px;
-      z-index: 1100;
-    }
+ }
 
-    .hamburger span {
-      width: 25px;
-      height: 3px;
-      background: white;
-      border-radius: 5px;
-      transition: all 0.3s;
-    }
+ /* Ícone do menu */
+ .hamburger {
+   display: none;
+   flex-direction: column;
+   cursor: pointer;
+   gap: 6px;
+   z-index: 1100;
+ }
 
-    /* Menu lateral (mobile) */
-    @media (max-width: 900px) {
-      nav {
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-        width: 250px;
-        background: #121212;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-        transform: translateX(100%);
-        transition: transform 0.4s ease;
-      }
+ .hamburger span {
+   width: 25px;
+   height: 3px;
+   background: white;
+   border-radius: 5px;
+   transition: all 0.3s;
+ }
 
-      nav.active {
-        transform: translateX(0);
-      }
+ /* Menu lateral (mobile) */
+ @media (max-width: 900px) {
+   nav {
+     position: fixed;
+     top: 0;
+     right: 0;
+     height: 80vh;
+     width: 250px;
+     background: #121212;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 2rem;
+     transform: translateX(100%);
+     transition: transform 0.4s ease;
+   }
 
-      .hamburger {
-        display: flex;
-      }
-    }
+   nav.active {
+     transform: translateX(0);
+   }
 
-    /* Animação do ícone ao abrir */
-    .hamburger.active span:nth-child(1) {
-      transform: rotate(45deg) translate(5px, 5px);
-    }
-    .hamburger.active span:nth-child(2) {
-      opacity: 0;
-    }
-    .hamburger.active span:nth-child(3) {
-      transform: rotate(-45deg) translate(6px, -6px);
-    }
+   .hamburger {
+     display: flex;
+   }
+ }
 
-    /* Efeito de escurecimento do fundo quando o menu abre */
-    .overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      background: rgba(0, 0, 0, 0.5);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.4s ease;
-      z-index: 900;
-    }
+ /* Animação do ícone ao abrir */
+ .hamburger.active span:nth-child(1) {
+   transform: rotate(45deg) translate(5px, 5px);
+ }
 
-    .overlay.active {
-      opacity: 1;
-      pointer-events: all;
-    }
+ .hamburger.active span:nth-child(2) {
+   opacity: 0;
+ }
+
+ .hamburger.active span:nth-child(3) {
+   transform: rotate(-45deg) translate(6px, -6px);
+ }
+
+ /* Efeito de escurecimento do fundo quando o menu abre */
+ .overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.5);
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity 0.4s ease;
+   z-index: 900;
+ }
+
+ .overlay.active {
+   opacity: 1;
+   pointer-events: all;
+ }
+
+ @media(max-width: 354px) {
+   .logo img {
+    width: 240px;
+   }
+ }

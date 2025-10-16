@@ -55,7 +55,7 @@
 }
 
 .div-form-son {
-    width: 80%;
+    width: 50%;
 }
 
 .div-form {
@@ -82,7 +82,7 @@ form {
 
 .div-form input {
     padding: 5px;
-    width: 70%;
+    width: 100%;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #919191;
