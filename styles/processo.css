@@ -49,6 +49,19 @@
   color: #ffffff;
 }
 
+@media(max-width: 1400px){
+
+    .process-txt{
+        width: 90%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .process-txt p{
+        width: 100%;
+    }
+}
+
 @media(max-width: 1024px) {
     .process {
         display: flex;

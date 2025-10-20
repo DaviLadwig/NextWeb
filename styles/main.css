@@ -106,8 +106,23 @@
     }
 }
 
+ @media(max-width: 1400px){
+    .cont-txt{
+    }
 
-@media(max-width: )
+    .dad-top{
+        padding:  20px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .cont-txt h4{
+        font-size: 3.4rem;
+    }
+
+}
+
+
 
 @media(max-width: 970px){
     .dad-div{

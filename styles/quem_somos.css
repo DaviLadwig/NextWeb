@@ -38,6 +38,18 @@
     width: 100%;
 }
 
+
+@media(max-width: 1400px){
+    .about-txt{
+        display: flex;
+        gap: 30px;
+    }
+
+    .about-txt p{
+        width: 100%;
+    }
+}
+
 @media(max-width: 1024px){
     .about-txt{
         width: 90%;

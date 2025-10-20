@@ -104,6 +104,8 @@
    pointer-events: all;
  }
 
+
+
  @media(max-width: 354px) {
    .logo img {
     width: 240px;
