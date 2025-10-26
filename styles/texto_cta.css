@@ -38,3 +38,13 @@
         font-size: 2.4rem;
     }
 }
+
+@media(max-width: 316px){
+    .cta{
+        padding-top: 200px;
+    }
+
+    .cta-txt{
+        width: 100%;
+    }
+}

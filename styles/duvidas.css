@@ -112,3 +112,9 @@
     font-size: 2.4rem;
   }
 }
+
+@media(max-width: 316px){
+    .faq-container h2{
+      margin-right: 100px
+    }
+}

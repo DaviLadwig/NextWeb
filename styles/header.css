@@ -105,8 +105,39 @@
  }
 
 
+@media(max-width:554px){
+  .logo img{
+    width: 400px;
+  
+  }
 
- @media(max-width: 354px) {
+}
+
+
+ @media(max-width: 458px){
+    .logo img{
+      width: 350px;
+    }
+
+ }
+
+  @media(max-width: 403px){
+    .logo img{
+      width: 350px;
+    }
+
+ }
+
+  @media(max-width: 397px){
+    .logo img{
+      width: 300px;
+    }
+
+ }
+
+
+
+  @media(max-width: 354px) {
    .logo img {
     width: 240px;
    }

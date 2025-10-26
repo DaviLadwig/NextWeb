@@ -110,12 +110,42 @@ form {
     }
 
     .div-form-son {
-        width: 100%;
+        width: 90%;
     }
 
     .div-form {
         display: flex;
         width: 100%;
+    }
+}
+
+@media(max-width:792px){
+    .contact-txt{
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .contact-txt h1{
+        width: 90%;
+    }
+}
+
+@media(max-width: 687px){
+
+    .contact-div{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-txt h1{
+        width: 95%;
+    }
+
+    .contact-txt p{
+        width: 75%;
     }
 }
 
@@ -136,4 +166,16 @@ form {
         margin-left: 20px;
     }
   
+}
+
+@media(max-width: 430px){
+    .contact-txt p{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 317px){
+    .contact-txt p{
+        margin-left: 50px;
+    }
 }
