@@ -14,8 +14,6 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background-color: #4B4E53;
-    background-image: linear-gradient(147deg, #4B4E53 0%, #000000 74%);
     border-radius: 0 25px;
 }
 
@@ -25,7 +23,7 @@
 }
 
 .video video {
-    width: 70%;
+    width: 90%;
     box-shadow: 3px 6px 9px black;
     border-radius: 10px;
     backdrop-filter: blur(3px);

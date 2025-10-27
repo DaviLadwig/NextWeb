@@ -122,6 +122,12 @@
     }
 }
 
+@media(max-width: 418px){
+    .process-txt img{
+        width: 390px;
+    }
+}
+
 @media(max-width: 400px) {
     .process-txt img {
         width: 370px;
