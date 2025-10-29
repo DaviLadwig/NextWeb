@@ -26,7 +26,7 @@
   border-radius: 12px;
   padding: 1.5rem;
   text-align: left;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
@@ -53,4 +53,22 @@
   color: #ccc;
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.link-project{
+  background-color: #919191;
+  font-size: 1rem;
+  padding: 7px;
+  font-weight: 700;
+  margin-top: 50px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.link-project:hover{
+  background-color: #9ed500;
+  color: #252525;
+  transition: 0.5s;
 }
